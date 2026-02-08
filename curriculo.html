@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">   
+    <!--FIM GOOGLE FONTS -->
+    <!--BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="stylemobile.css">
+    <script src="menu.js" defer></script>
+    <title>Currículo</title>
+</head>
+  
+<body>
+    <header> 
+        <!--interface começo-->
+        <div class="interface">
+            <div class="logo"> 
+                <!--logo -->
+                <a href="index.html">
+                    <img src="images/logo1.png" alt="logo do portifolio">
+                </a>
+            </div> 
+            <!--logo -->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Certificações</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Minha Historia</a></li>
+                    <li><a href="#">Curriculo</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="redirecionamento.html">
+                    <button>Contato</button>
+                </a>
+            </div> 
+            
+          <!-- MENU MOBILE -->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Certificações<br>(em breve)</a></li>
+                        <li><a href="#">Projetos<br>(em breve)</a></li>
+                        <li><a href="#">Minha História<br>(em breve)</a></li>
+                        <li><a href="#">Curriculo</a></li>
+                        <li><a href="redirecionamento.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div> 
+            <div class="overlay-menu" id="overlay-menu">
+            </div>
+        </div>
+
+         </header>
+         <!-- FIM DO MENU MOBILE -->
+          <div class="space1">
+                </div>
+
+        
+          <div class="card">
+
+    <main class="container-acesso">
+        <div class="card-acesso">
+            <img src="images/logo2.png" alt="Logo" class="logo-acesso">
+            <h2 class="titulo-negrito">Área do Recrutador</h2>
+            <p>Por favor, insira o código de acesso para visualizar o currículo em PDF.</p>
+
+            <div class="input-group">
+                <input type="password" id="input-codigo" placeholder="Digite o código">
+                <button id="btn-acessar" class="btn-acesso-curriculo">Ver Currículo</button>
+                <button type="button" id="btn-solicitar" class="btn-solicitar-codigo">Solicitar Código</button>
+            </div>
+
+            <p id="mensagem-erro" class="hidden">Código inválido. Verifique e tente novamente.</p>
+        </div>
+
+        <div id="pdf-container" class="hidden">
+            <hr class="linha-separadora">
+            <p class="sucesso-texto"><strong><i class="bi bi-check-circle"></i> Acesso Concedido!</strong></p>
+            <iframe src="pdf/Curriculo - Modelo Padrão João.pdf" width="100%" height="600px" class="iframe-pdf"></iframe>
+        </div>
+    </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

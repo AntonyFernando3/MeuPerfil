@@ -1,0 +1,158 @@
+/* BOTÃO DO MENU DE OPÇÕES MOBILE */
+
+/* Esconder o botão de menu na versão desktop */
+.btn-abrir-menu {
+    display: none;
+}
+
+/* Exibir o botão de menu na versão mobile */
+@media screen and (max-width: 1020px) {
+    .btn-abrir-menu {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    /*classes gerais*/
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /*cabecalho*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* topo do site */
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /*especialidades*/
+
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* sobre */
+
+    section.sobre {
+        padding: 80px 4%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* portifolio */
+
+    section.portifolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-height: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex {
+        gap: 60px;
+    }
+
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+    .img-logo img {
+        max-width: 60%; /* Diminui a largura da imagem em dispositivos móveis */
+    }
+
+    .mensagem {
+        font-size: 18px; /* Diminui o tamanho do texto em dispositivos móveis */
+        padding: 0 15px;
+    }
+
+    .formulario img{
+        max-width: 200px;
+    }
+
+    .btn-social button {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgb(0, 70, 192);
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: .2s;
+    }
+
+    .text-footer1{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    }
+
+    .text-footer2{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    }
+
+    
+/* Seleciona o grupo onde estão os botões */
+.input-group {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos: input, depois botões */
+    gap: 12px;             /* Cria o espaço entre o input e os botões, e entre os botões entre si */
+    width: 100%;
+}
+
+/* Garante que os botões individuais não tenham margens conflitantes */
+.btn-acesso-curriculo, 
+.btn-solicitar-codigo {
+    margin: 0;             /* Remove margens antigas que podem estar desalinhando */
+    width: 100%;           /* Garante que ocupem toda a largura no mobile */
+}
+
+
+}
+
