@@ -10,6 +10,10 @@
     .btn-abrir-menu {
         display: block;
     }
+
+    .btn-portal{
+    background-color: rgb(0, 70, 192);
+}
 }
 
 @media screen and (max-width: 1020px) {
