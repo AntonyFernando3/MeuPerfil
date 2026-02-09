@@ -1,0 +1,307 @@
+/* BOTÃO DO MENU DE OPÇÕES MOBILE */
+
+/* Esconder o botão de menu na versão desktop */
+.btn-abrir-menu {
+    display: none;
+}
+
+/* Exibir o botão de menu na versão mobile */
+@media screen and (max-width: 1020px) {
+    .btn-abrir-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+
+    /*classes gerais*/
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /*cabecalho*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* topo do site */
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /*ESPECIALIDADES ----------------------- */
+
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    section.sobre {
+        padding: 80px 4%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* portifolio */
+
+    section.portifolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-height: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex {
+        gap: 60px;
+    }
+
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+
+    .img-logo img {
+        max-width: 60%; 
+    }
+
+    .mensagem {
+        font-size: 18px; 
+        padding: 0 15px;
+    }
+
+    .formulario img{
+        max-width: 250px;
+    }
+
+    .btn-social button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgb(0, 70, 192);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: .2s;
+    }
+
+    .text-footer1{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    }
+
+    .text-footer2{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    }
+
+    .input-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;             
+    width: 100%;
+    }
+
+   .btn-acesso-curriculo, 
+   .btn-solicitar-codigo {
+    margin: 0;             
+    width: 100%;           
+    }
+
+    .logo-footer img {
+    max-width: 250px;
+}
+
+ /* REDIRECIONAMENTO -------------------- */
+
+.redirecionamento {
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    width: 100%;            
+    padding: 20px;          
+    box-sizing: border-box; 
+}
+
+h1.mensagem {
+    text-align: center;
+    font-size: 16px;        
+    color: #0046c0;         
+    width: 90%;             
+    max-width: 800px;       
+    line-height: 1.5;       
+    margin: 0 auto;         
+    font-weight: 700;       
+}
+
+.container {
+    margin: 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #118ab2;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 5rem;
+    margin: 0;
+    color: #0046C0;
+}
+
+.redirecionamento h1{
+    color: #0046C0;
+    margin: 80px;
+}
+
+}
+
+/* LOGIN.HTML ----------------------------------  */
+
+
+@media (max-width: 768px) {
+    
+    .testelogin {
+        padding: 20px; 
+        align-items: flex-start; 
+        padding-top: 50px;
+    }
+
+    .card-acessar {
+        width: 100%;      
+        padding: 25px 20px; 
+        border-radius: 15px; 
+    }
+
+    .titulo-acesso {
+        font-size: 22px; 
+    }
+
+    .subtitulo {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    
+    .input-login {
+        padding: 15px; 
+        font-size: 16px; 
+    }
+
+    .botoes-container-login {
+        flex-direction: column; 
+        gap: 12px;
+        margin-top: 15px;
+    }
+
+    .btn-acesso {
+        width: 100%; 
+        padding: 14px; 
+        font-size: 18px;
+    }
+}
+
+/* CADASTRO.HTML ----------------------------------  */
+
+@media (max-width: 768px) {
+    
+    .testelogin {
+        padding: 15px;
+        align-items: flex-start; 
+        padding-top: 30px;
+    }
+
+    .card-acessar {
+        width: 100%;
+        padding: 25px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    }
+
+    .titulo-acesso {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .subtitulo {
+        font-size: 13px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .input-group-login {
+        margin-bottom: 8px; 
+    }
+
+    .input-login {
+        padding: 14px;
+        font-size: 16px; 
+        border: 1.5px solid #b0b0b0; 
+    }
+
+    .botoes-container-login {
+        margin-top: 15px;
+    }
+
+    .btn-acesso {
+        width: 100%;
+        padding: 15px;
+        font-size: 17px;
+        height: auto; 
+    }
+
+    .link-voltar {
+        margin-top: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .link-voltar a {
+        font-size: 14px;
+        padding: 10px; 
+        display: inline-block;
+    }
+}
