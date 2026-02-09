@@ -4,12 +4,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase
 
 // Suas chaves do Console do Firebase
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
+  apiKey: "AIzaSyDB3xuL_s5GslT60J3YKHCwFipo7pDl6L8",
   authDomain: "antonytechnology.firebaseapp.com",
   projectId: "antonytechnology",
   storageBucket: "antonytechnology.appspot.com",
-  messagingSenderId: "SEU_ID",
-  appId: "SEU_APP_ID"
+  messagingSenderId: "1005968563727",
+  appId: "1:1005968563727:web:f0a2cf91b463b0f9684d7a"
 };
 
 // Inicialização
