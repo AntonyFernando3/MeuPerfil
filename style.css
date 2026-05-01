@@ -257,6 +257,16 @@ section.especialidades .flex {
     margin: 15px 0;
 }
 
+.especialidades-box img {
+    /* Define as dimensões */
+    width: 300px;
+    height: 300px;
+
+    /* Centraliza a imagem */
+    display: block;
+    margin: 0 auto;
+}
+
 /* ESTILO SOBRE */
 
 .image-sobre img {
