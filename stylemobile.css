@@ -219,6 +219,7 @@
         padding: 20px;
         align-items: flex-start;
         padding-top: 50px;
+        min-height: 20vh;
     }
 
     .card-acessar {
