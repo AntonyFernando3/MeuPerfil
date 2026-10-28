@@ -865,6 +865,7 @@ button:hover {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 16px;
+    text-align: justify;
 }
 
 .curso-detalhes {
