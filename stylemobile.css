@@ -54,6 +54,13 @@
 
     /*ESPECIALIDADES ----------------------- */
 
+    .especialidades-box img{
+    max-width: 120px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+   }
+
     section.especialidades {
         padding: 40px 8%;
     }
