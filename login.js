@@ -1,12 +1,12 @@
 import { auth } from "./firebase-config.js";
 import { signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("form-autenticacao");
     const feedback = document.getElementById("mensagem-feedback");
 
     // Lógica de Login
-    form.addEventListener("submit", async function(e) {
+    form.addEventListener("submit", async function (e) {
         e.preventDefault();
         const email = document.getElementById("email").value;
         const senha = document.getElementById("senha").value;

@@ -11,9 +11,9 @@
         display: block;
     }
 
-    .btn-portal{
-    background-color: rgb(0, 70, 192);
-}
+    .btn-portal {
+        background-color: rgb(0, 70, 192);
+    }
 }
 
 @media screen and (max-width: 1020px) {
@@ -54,12 +54,12 @@
 
     /*ESPECIALIDADES ----------------------- */
 
-   .especialidades-box img{
-    max-width: 120px; 
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto;
-   }
+    .especialidades-box img {
+        max-width: 120px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
 
     section.especialidades {
         padding: 40px 8%;
@@ -108,105 +108,105 @@
     }
 
     .img-logo img {
-        max-width: 60%; 
+        max-width: 60%;
     }
 
     .mensagem {
-        font-size: 18px; 
+        font-size: 18px;
         padding: 0 15px;
     }
 
-    .formulario img{
+    .formulario img {
         max-width: 250px;
     }
 
     .btn-social button {
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    border: none;
-    color: white;
-    background-color: rgb(0, 70, 192);
-    font-size: 20px;
-    cursor: pointer;
-    margin: 0 2px;
-    transition: .2s;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        background-color: rgb(0, 70, 192);
+        font-size: 20px;
+        cursor: pointer;
+        margin: 0 2px;
+        transition: .2s;
     }
 
-    .text-footer1{
-    color: white;
-    font-size: 12px;
-    font-weight: bolder;
+    .text-footer1 {
+        color: white;
+        font-size: 12px;
+        font-weight: bolder;
     }
 
-    .text-footer2{
-    color: white;
-    font-size: 12px;
-    font-weight: bolder;
+    .text-footer2 {
+        color: white;
+        font-size: 12px;
+        font-weight: bolder;
     }
 
     .input-group {
-    display: flex;
-    flex-direction: column; 
-    gap: 12px;             
-    width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
     }
 
-   .btn-acesso-curriculo, 
-   .btn-solicitar-codigo {
-    margin: 0;             
-    width: 100%;           
+    .btn-acesso-curriculo,
+    .btn-solicitar-codigo {
+        margin: 0;
+        width: 100%;
     }
 
     .logo-footer img {
-    max-width: 250px;
-}
+        max-width: 250px;
+    }
 
- /* REDIRECIONAMENTO -------------------- */
+    /* REDIRECIONAMENTO -------------------- */
 
-.redirecionamento {
-    display: flex;          
-    flex-direction: column; 
-    align-items: center;   
-    justify-content: center;
-    width: 100%;            
-    padding: 20px;          
-    box-sizing: border-box; 
-}
+    .redirecionamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
 
-h1.mensagem {
-    text-align: center;
-    font-size: 16px;        
-    color: #0046c0;         
-    width: 90%;             
-    max-width: 800px;       
-    line-height: 1.5;       
-    margin: 0 auto;         
-    font-weight: 700;       
-}
+    h1.mensagem {
+        text-align: center;
+        font-size: 16px;
+        color: #0046c0;
+        width: 90%;
+        max-width: 800px;
+        line-height: 1.5;
+        margin: 0 auto;
+        font-weight: 700;
+    }
 
-.container {
-    margin: 0;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: #118ab2;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
+    .container {
+        margin: 0;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #118ab2;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
 
-#countdown {
-    font-size: 5rem;
-    margin: 0;
-    color: #0046C0;
-}
+    #countdown {
+        font-size: 5rem;
+        margin: 0;
+        color: #0046C0;
+    }
 
-.redirecionamento h1{
-    color: #0046C0;
-    margin: 80px;
-}
+    .redirecionamento h1 {
+        color: #0046C0;
+        margin: 80px;
+    }
 
 }
 
@@ -214,21 +214,21 @@ h1.mensagem {
 
 
 @media (max-width: 768px) {
-    
+
     .testelogin {
-        padding: 20px; 
-        align-items: flex-start; 
+        padding: 20px;
+        align-items: flex-start;
         padding-top: 50px;
     }
 
     .card-acessar {
-        width: 100%;      
-        padding: 25px 20px; 
-        border-radius: 15px; 
+        width: 100%;
+        padding: 25px 20px;
+        border-radius: 15px;
     }
 
     .titulo-acesso {
-        font-size: 22px; 
+        font-size: 22px;
     }
 
     .subtitulo {
@@ -236,21 +236,21 @@ h1.mensagem {
         margin-bottom: 20px;
     }
 
-    
+
     .input-login {
-        padding: 15px; 
-        font-size: 16px; 
+        padding: 15px;
+        font-size: 16px;
     }
 
     .botoes-container-login {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 12px;
         margin-top: 15px;
     }
 
     .btn-acesso {
-        width: 100%; 
-        padding: 14px; 
+        width: 100%;
+        padding: 14px;
         font-size: 18px;
     }
 }
@@ -258,10 +258,10 @@ h1.mensagem {
 /* CADASTRO.HTML ----------------------------------  */
 
 @media (max-width: 768px) {
-    
+
     .testelogin {
         padding: 15px;
-        align-items: flex-start; 
+        align-items: flex-start;
         padding-top: 30px;
     }
 
@@ -269,7 +269,7 @@ h1.mensagem {
         width: 100%;
         padding: 25px 15px;
         border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     }
 
     .titulo-acesso {
@@ -284,13 +284,13 @@ h1.mensagem {
     }
 
     .input-group-login {
-        margin-bottom: 8px; 
+        margin-bottom: 8px;
     }
 
     .input-login {
         padding: 14px;
-        font-size: 16px; 
-        border: 1.5px solid #b0b0b0; 
+        font-size: 16px;
+        border: 1.5px solid #b0b0b0;
     }
 
     .botoes-container-login {
@@ -301,7 +301,7 @@ h1.mensagem {
         width: 100%;
         padding: 15px;
         font-size: 17px;
-        height: auto; 
+        height: auto;
     }
 
     .link-voltar {
@@ -312,11 +312,11 @@ h1.mensagem {
 
     .link-voltar a {
         font-size: 14px;
-        padding: 10px; 
+        padding: 10px;
         display: inline-block;
     }
 
-/* CURSOS.HTML ----------------------------------  */
+    /* CURSOS.HTML ----------------------------------  */
 
     .card-curso-destaque {
         flex-direction: column;

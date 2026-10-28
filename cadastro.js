@@ -2,9 +2,9 @@ import { auth, db } from "./firebase-config.js";
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 import { doc, setDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-document.getElementById("form-cadastro").addEventListener("submit", async function(e) {
+document.getElementById("form-cadastro").addEventListener("submit", async function (e) {
     e.preventDefault();
-    
+
     // Captura dos dados dos campos com as classes que criamos
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
@@ -45,7 +45,7 @@ document.getElementById("form-cadastro").addEventListener("submit", async functi
     } catch (error) {
         feedback.style.color = "#d9534f";
         feedback.classList.remove("hidden");
-        
+
         // Tratamento de erros comuns
         if (error.code === 'auth/email-already-in-use') {
             feedback.textContent = "Este e-mail já está em uso.";
